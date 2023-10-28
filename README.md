@@ -62,7 +62,7 @@ Replace "Your commit message here" with your actual commit message.
 
 By default, the application pushes changes to the main branch. If you want to push changes to a different branch, modify the GIT_BRANCH constant in the main.rs file.
 
-  ```bash
+  ```rust
   const GIT_BRANCH: &str = "main";
   ```
 
